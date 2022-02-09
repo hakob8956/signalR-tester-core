@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CommandExecutor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.15" />
+    <PackageReference Include="Goblinfactory.ProgressBar" Version="1.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SignalR.Tester.Core\SignalR.Tester.Core.csproj" />
+    <ProjectReference Include="..\SignalR.Tester.Utils\SignalR.Tester.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

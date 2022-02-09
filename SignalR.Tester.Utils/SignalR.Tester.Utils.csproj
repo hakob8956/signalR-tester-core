@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DustInTheWind.ConsoleTools">
+      <HintPath>..\Lib\DustInTheWind.ConsoleTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
