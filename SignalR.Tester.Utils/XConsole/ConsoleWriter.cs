@@ -180,14 +180,6 @@ namespace SignalR.Tester.Utils.XConsole
         private const int MAXIMIZE = 3;
         private const int MINIMIZE = 6;
         private const int RESTORE = 9;
-
-        //[return: MarshalAs(UnmanagedType.Bool)]
-        //[DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
-        public static void ShowMaximum()
-        {
-            Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
-            ShowWindow(ThisConsole, MAXIMIZE);
-        }
-
+        
     }
 }
